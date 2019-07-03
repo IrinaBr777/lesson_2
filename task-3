@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <script type="text/javascript">
+       let a = +prompt('Введите первое число');
+       let b = +prompt('Введите второе число');
+       if (a >= 0 && b >= 0) {
+           alert(a - b);
+       }else{
+            if(a < 0 && b < 0) {
+                alert(a * b);
+           }else{
+               if(a >= 0 && b <= 0 || a <= 0 && b >= 0) {
+                    alert(a + b);
+               }
+           }
+       }
+    </script>
+</body>
+</html>
