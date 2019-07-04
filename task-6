@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <script type="text/javascript">
+        function mathOperation(arg1, arg2, operation){
+    			switch(operation){
+       				 case 'addition':
+           				 return arg1 + arg2;
+           				 break;
+       				 case 'subtracton':
+           				 return arg1 - arg2;
+            			 break;
+        			 case 'division':
+                      	 return arg1 / arg2;
+            			 break;
+       				 case 'multiplication':
+           				 return arg1 * arg2;
+            			 break;
+   				}
+		}
+    </script>
+</body>
+</html>
