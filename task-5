@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <script type="text/javascript">
+   
+    let a = +prompt('Задайте значение а');
+    let b = +prompt('Задайте значение b');
+
+    function addition(a,b) {
+        return a + b;
+    }
+
+    function subtraction(a,b) {
+        return a - b;
+    }
+
+    function multiplication(a,b) {
+        return a * b;
+    }
+
+    function division(a,b) {
+        return a / b;
+    }
+
+    console.log(addition);
+    console.log(subtraction);
+    console.log(multiplication);
+    console.log(division);
+    
+    </script>
+</body>
+</html>
