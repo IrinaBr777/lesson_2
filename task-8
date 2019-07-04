@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <script type="text/javascript">
+    var x = +prompt('введите число');
+    var n = +prompt('в какую степень хотите возвести?');
+        function pow(x,n) {
+	if (n != 1) {
+	  return x *= pow(x,n - 1);
+	} else {
+	  return x;
+	}
+}
+alert( pow(x,n));
+    </script>
+</body>
+</html>
